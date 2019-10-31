@@ -1,0 +1,20 @@
+{
+    "name": "songbai/coord",
+    "description": "提供百度坐标系(bd-09)、火星坐标系(国测局坐标系、gcj02)、WGS84坐标系的相互转 基于PHP，无特殊依赖",
+    "type": "library",
+    "require": {
+        "php": ">=7.0"
+    },
+    "license": "mit",
+    "authors": [
+        {
+            "name": "xian",
+            "email": "songbai_x@qq.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "SongBai\\Coord\\": "src/"
+        }
+    }
+}
